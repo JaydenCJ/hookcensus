@@ -1,0 +1,1 @@
+// Fixture stub — never executed.

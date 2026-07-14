@@ -1,0 +1,8 @@
+{
+  "name": "tiny-notifier",
+  "version": "2.0.1",
+  "description": "Fixture: opaque postinstall running a bundled script — classified review.",
+  "scripts": {
+    "postinstall": "node scripts/setup.js"
+  }
+}

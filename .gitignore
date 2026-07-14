@@ -1,0 +1,25 @@
+# --- dependencies ---
+# examples/*/node_modules are materialized from the committed
+# examples/*/nm-fixture trees by scripts/setup-examples.mjs
+node_modules/
+
+# --- build outputs ---
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+*.tgz
+
+# --- env & secrets ---
+.env
+.env.*
+!.env.example
+
+# --- caches / editor / OS ---
+.DS_Store
+.idea/
+.vscode/
+.cache/
+tmp/
+*.log

@@ -1,0 +1,23 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --outfile=dist/main.js",
+    "postinstall": "node scripts/link-assets.js"
+  },
+  "dependencies": {
+    "@webapp/tokens": "^1.0.0",
+    "better-sqlite3": "^11.3.0",
+    "core-js": "^3.38.1",
+    "esbuild": "^0.21.5",
+    "fsevents": "^2.3.3",
+    "left-pad": "^1.3.0",
+    "native-keychain": "^1.4.2",
+    "sharp": "^0.33.4",
+    "tiny-notifier": "^2.0.1"
+  },
+  "devDependencies": {
+    "husky": "^4.3.8"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@webapp/tokens",
+  "version": "1.0.0",
+  "description": "Fixture: scoped, script-free package — counts toward the scanned total only.",
+  "main": "index.js"
+}

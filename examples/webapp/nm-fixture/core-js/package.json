@@ -1,0 +1,8 @@
+{
+  "name": "core-js",
+  "version": "3.38.1",
+  "description": "Fixture: postinstall prints a funding banner only (knowledge-base deny).",
+  "scripts": {
+    "postinstall": "node -e \"try{require('./postinstall')}catch(e){}\""
+  }
+}

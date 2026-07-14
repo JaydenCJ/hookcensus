@@ -1,0 +1,6 @@
+{
+  "name": "pino",
+  "version": "9.0.0",
+  "description": "Fixture: script-free package; proves the walker dedupes the symlinked and store views.",
+  "main": "pino.js"
+}

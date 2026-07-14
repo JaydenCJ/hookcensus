@@ -1,0 +1,8 @@
+{
+  "name": "esbuild",
+  "version": "0.21.5",
+  "description": "Fixture: the one allowlist entry that is still correct.",
+  "scripts": {
+    "postinstall": "node install.js"
+  }
+}

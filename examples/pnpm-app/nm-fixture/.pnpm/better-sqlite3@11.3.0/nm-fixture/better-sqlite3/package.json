@@ -1,0 +1,8 @@
+{
+  "name": "better-sqlite3",
+  "version": "11.3.0",
+  "description": "Fixture: native addon in the pnpm store; not yet decided by the stale allowlist.",
+  "scripts": {
+    "install": "prebuild-install || node-gyp rebuild --release"
+  }
+}

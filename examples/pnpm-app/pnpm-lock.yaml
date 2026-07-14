@@ -1,0 +1,43 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  better-sqlite3:
+    specifier: ^11.3.0
+    version: 11.3.0
+  esbuild:
+    specifier: ^0.21.5
+    version: 0.21.5
+  node-sass:
+    specifier: ^9.0.0
+    version: 9.0.0
+  pino:
+    specifier: ^9.0.0
+    version: 9.0.0
+
+packages:
+
+  /better-sqlite3@11.3.0:
+    resolution: {integrity: sha512-fixture0000000000000000000000000000000000000000000000000000000000000000000000000000000==}
+    requiresBuild: true
+    dev: false
+
+  /esbuild@0.21.5:
+    resolution: {integrity: sha512-fixture1111111111111111111111111111111111111111111111111111111111111111111111111111111==}
+    hasBin: true
+    requiresBuild: true
+    dev: false
+
+  /node-sass@9.0.0:
+    resolution: {integrity: sha512-fixture2222222222222222222222222222222222222222222222222222222222222222222222222222222==}
+    hasBin: true
+    requiresBuild: true
+    dev: false
+
+  /pino@9.0.0:
+    resolution: {integrity: sha512-fixture3333333333333333333333333333333333333333333333333333333333333333333333333333333==}
+    hasBin: true
+    dev: false

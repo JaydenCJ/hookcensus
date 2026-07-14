@@ -1,0 +1,5 @@
+{
+  "name": "native-keychain",
+  "version": "1.4.2",
+  "description": "Fixture: ships binding.gyp but declares NO install script — package managers synthesize node-gyp rebuild."
+}

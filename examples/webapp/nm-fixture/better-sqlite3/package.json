@@ -1,0 +1,8 @@
+{
+  "name": "better-sqlite3",
+  "version": "11.3.0",
+  "description": "Fixture: native addon whose install step is load-bearing (knowledge-base allow).",
+  "scripts": {
+    "install": "prebuild-install || node-gyp rebuild --release"
+  }
+}

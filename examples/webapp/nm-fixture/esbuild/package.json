@@ -1,0 +1,8 @@
+{
+  "name": "esbuild",
+  "version": "0.21.5",
+  "description": "Fixture: postinstall places the platform binary (knowledge-base allow).",
+  "scripts": {
+    "postinstall": "node install.js"
+  }
+}

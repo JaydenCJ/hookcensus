@@ -1,0 +1,8 @@
+packages:
+  - .
+
+# Allowlist written months ago — esbuild is still right, left-pad has not
+# had an install script for years. `hookcensus check` flags the drift.
+onlyBuiltDependencies:
+  - esbuild
+  - left-pad

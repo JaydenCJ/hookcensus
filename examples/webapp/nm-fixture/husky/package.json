@@ -1,0 +1,8 @@
+{
+  "name": "husky",
+  "version": "4.3.8",
+  "description": "Fixture: postinstall wires git hooks — a dev-repo concern (knowledge-base deny).",
+  "scripts": {
+    "postinstall": "node husky install"
+  }
+}

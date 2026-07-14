@@ -1,0 +1,55 @@
+{
+  "name": "hookcensus",
+  "version": "0.1.0",
+  "description": "Lists every lifecycle script in your dependency tree and generates pnpm and npm allowlist configs.",
+  "author": "JaydenCJ",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "hookcensus": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "setup:examples": "node scripts/setup-examples.mjs",
+    "test": "npm run build && node scripts/setup-examples.mjs && node --test \"tests/*.test.mjs\"",
+    "smoke": "bash scripts/smoke.sh"
+  },
+  "keywords": [
+    "lifecycle-scripts",
+    "postinstall",
+    "supply-chain",
+    "pnpm",
+    "ignore-scripts",
+    "allowlist",
+    "security",
+    "cli"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenCJ/hookcensus.git"
+  },
+  "homepage": "https://github.com/JaydenCJ/hookcensus#readme",
+  "bugs": {
+    "url": "https://github.com/JaydenCJ/hookcensus/issues"
+  }
+}
