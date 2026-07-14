@@ -2,7 +2,7 @@
   "name": "hookcensus",
   "version": "0.1.0",
   "description": "Lists every lifecycle script in your dependency tree and generates pnpm and npm allowlist configs.",
-  "author": "JaydenCJ",
+  "author": "JaydenCJ <aisingioro.kiyon@gmail.com>",
   "license": "MIT",
   "type": "module",
   "bin": {
